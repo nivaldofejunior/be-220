@@ -1,0 +1,8 @@
+{
+  "name": "Be220",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "8004423c"
+}
