@@ -6,12 +6,14 @@
     <ion-title style="text-align: center" class="logo">
       <img src="../../assets/logo.png"
     /></ion-title>
-    <ion-icon
+   
+      <ion-icon
       style="margin-right: 15px; color: #f88205"
       name="notifications"
       slot="end"
       (click)="verNotificacoes()"
     ></ion-icon>
+    
   </ion-toolbar>
 </ion-header>
 
@@ -22,8 +24,7 @@
       <ion-item class="item">
         <ion-avatar>
           <img
-            src="https://scontent.fmao1-1.fna.fbcdn.net/v/t1.6435-9/62019562_1852147964886259_6818992646690701312_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=174925&_nc_eui2=AeF3pJSlSMMA3thrh-f-JMbXy3EMv7UlzWjLcQy_tSXNaP2caCbcyBFoIxSW_Q8jtOAcD74BYt4WTMOmYrTyvUAl&_nc_ohc=NU9MAdu8_OYAX86yoWZ&_nc_ht=scontent.fmao1-1.fna&oh=37797aa0ce616fc3beeba87ecbc305d7&oe=60E18876"
-          />
+            src="../../assets/perfil/62019562_1852147964886259_6818992646690701312_n.jpg">
         </ion-avatar>
         <ion-label (click)="meuPerfil()" style="margin-left: 10px; color: white"
           >Nivaldo Ferreira
@@ -69,8 +70,20 @@
       ></ion-icon>
     </ion-row>
 
-    <!--COMPONENTE VEM DA PASTA /COMPONENT/PICKUP-CALL-SLIDE-->
+    <!--COMPONENTE VEM DA PASTA /COMPONENT/PROGRAMAS-->
 
-    <app-pickup-call-slide></app-pickup-call-slide>
+    <app-programas></app-programas>
+    <ion-row (click)="verProgramas()" class="titulomenu">
+      <strong>CONTEÚDOS</strong>
+    </ion-row>
+    
+        <!--COMPONENTE VEM DA PASTA /COMPONENT/CONTEUDO-->
+
+    <app-redessociais></app-redessociais>
+    
   </ion-grid>
+
+
+
+
 </ion-content>

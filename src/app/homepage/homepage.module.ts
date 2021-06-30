@@ -1,3 +1,5 @@
+import { RedessociaisComponent } from './../component/redessociais/redessociais.component';
+import { ProgramasComponent } from './../component/programas/programas.component';
 import { PickupCallSlideComponent } from './../component/pickup-call-slide/pickup-call-slide.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -17,6 +19,9 @@ import { HomepagePage } from './homepage.page';
     HomepagePageRoutingModule
   ],
   declarations: [HomepagePage,
-  PickupCallSlideComponent]
+  PickupCallSlideComponent,
+  ProgramasComponent,
+  RedessociaisComponent,]
+  
 })
 export class HomepagePageModule {}
