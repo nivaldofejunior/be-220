@@ -4,7 +4,7 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #222428;
+  --ion-color-primary: #202020;
   --ion-color-primary-rgb: 34, 36, 40;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -234,3 +234,10 @@
     --ion-card-background: #1e1e1e;
   }
 }
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+$font-family-base: 'Roboto', sans-serif, !default;
+$font-family-ios-base: 'Roboto', sans-serif;;
+$font-family-md-base: 'Roboto', sans-serif;;
+$font-family-wp-base: 'Roboto', sans-serif;;
+
