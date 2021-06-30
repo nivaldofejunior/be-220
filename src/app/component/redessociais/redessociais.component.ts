@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
 
 @Component({
   selector: 'app-redessociais',
@@ -15,6 +16,18 @@ export class RedessociaisComponent {
     loop: true,
     spaceBetween: 10,
     autoplay: true, //deixa o slide passando automaticamente
+  }
+
+  irInstagram(){
+    console.log("Ir instagram");
+  }
+
+  irFacebook(){
+    console.log("Ir Facebook");
+  }
+
+  irYoutube(){
+    console.log("Ir Youtube");
   }
 
 }

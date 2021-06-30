@@ -1,7 +1,7 @@
 <ion-slides [options]="option" class="ion-margin-top">
 
   <ion-slide>
-    <ion-card>
+    <ion-card (click)="irInstagram()">
       <img src="../../../assets/social/instagram-background.jpg">
       <ion-card-content style="color:white; transform: translateY(-180%);">
         <strong><ion-icon name="logo-instagram"></ion-icon>&nbsp;INSTRAGRAM</strong>
@@ -11,13 +11,13 @@
   </ion-slide>
 
   <ion-slide>
-    <ion-card>
+    <ion-card (click)="irFacebook()">
       <img src="../../../assets/social/facebook-background.jpg">
     </ion-card>
   </ion-slide>
 
   <ion-slide>
-    <ion-card>
+    <ion-card (click)="irYoutube()">
       <img src="../../../assets/social/youtube-background.jpg">
     </ion-card>
   </ion-slide>
